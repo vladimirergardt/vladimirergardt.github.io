@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    font: 20px "Lato", sans-serif;
 }
 
 .wrapper {
-    width: 90%;
+    width: 70%;
     margin: 0 auto ;
 }
 
@@ -39,9 +40,55 @@ div {
     }
 
 .banner {
-    background:  url("../img/Banner1.png") no-repeat center center / cover ;
+    background:  url("../img/Banner1.png") no-repeat top 280% center / cover ;
     height: 100vh;
 }
+
+.main_header {
+    font: 120px "Lato", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 13%;
+    text-align: center;
+}
+
+.main_header__line {
+    height: 2px;
+    width: 600px;
+    border-bottom: 2px solid #15a4fa;
+    margin:  0 auto;
+    padding-top: 1%;
+
+}
+
+.main_header__text {
+    font: 20px "Lato", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+
+.main_header__button {
+    width: 182px;
+    height: 60px;
+    position: relative;
+    display: block;
+    margin:  0 auto;
+    background: #15a4fa;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px ;
+}
+
+.main_header__button__arrow {
+    margin: 7%  auto 0;
+    display: block;
+    position: relative;
+}
+
 
 .simpleDisigne {
     height: 100vh;

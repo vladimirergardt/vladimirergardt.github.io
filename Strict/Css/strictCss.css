@@ -19,6 +19,7 @@ div {
 
 .header {
     background: #f6f9f9;
+
 }
 
 
@@ -27,6 +28,7 @@ div {
     padding: 0;
     display: inline-block;
     margin: 1.5% 0 1.5% 0;
+
 }
 
 #Logo_text {
@@ -67,7 +69,7 @@ div {
     font: 20px "Lato", sans-serif;
     color: #ffffff;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 5vh;
 }
 
 
@@ -85,31 +87,205 @@ div {
 }
 
 .main_header__button__arrow {
-    margin: 7%  auto 0;
+    margin: 7vh auto;
     height: 12px;
     width: 20px;
     background-image: url("../img/row.png");
     display: block;
     position: relative;
+
 }
 
 
 .simpleDisigne {
     height: 100vh;
     margin-top: 0;
+    clear: both;
 }
 
 .simpleDisigne__section_header__section_text {
     height: 40vh;
     background: #f6f9f9;
+    text-align: center;
+
+}
+
+
+
+.section_header {
+    padding-top: 8vh;
+    margin: 0;
+    color: #2d3950;
+    font: 40px "Lato", sans-serif;
+}
+
+.section_text {
+    color: #999999;
+    font: 18px "Lato", sans-serif;
+    line-height: 150%;
+
+}
+
+.simpleDisigne__section_content_block__block {
+
+    height: 250px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 15vh;
+    clear: left ;
+
+}
+
+.simpleDisigne__section_content_block__block:first-child{
+    margin-left: 0;
+    float: left;
+}
+.simpleDisigne__section_content_block__block__img:first-child {
+    padding-top: 0;
+}
+
+
+
+.simpleDisigne__section_content_block__block:nth-child(2){
+    margin-left: 2vh;
+}
+
+.simpleDisigne__section_content_block__block:nth-child(3){
+    margin-left: 2vh;
+
+}
+
+.simpleDisigne__section_content_block__block__header {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    font: 22px "Lato", sans-serif;
+    color: #2d3950;
+}
+
+.simpleDisigne__section_content_block__block__text {
+    font: 15px "Lato", sans-serif;
+    color: #999999;
 }
 
 .showcase {
     height: 100vh;
-    background: #7e7e7e;
+    background: #f6f9f9;
+    text-align: center;
 }
 
-.section_header {
-    margin: 0;
-    padding: 0;
+.showcase .section_header {
+    padding: 5vh 0 0 0;
 }
+
+.showcase .section_text {
+    margin-bottom: 2vh;
+    padding: 2vh 0 0 0;
+    font: 15px "Lato", sans-serif;
+}
+
+.showcase__image_block {
+    padding-top: 0;
+}
+
+.showcase__image_block {
+    display: inline-block;
+    margin: 1% 1%;
+}
+
+
+.stayWith {
+    background: url("../img/Banner2.png") no-repeat top 280% center / cover ;
+    height: 100vh;
+    text-align: center;
+}
+
+.stayWith .section_header {
+    color: #ffffff;
+}
+
+.stayWith .section_text {
+    color: #676b75;
+    font: 15px "Lato", sans-serif;
+}
+
+.send_form {
+    color: #999999;
+    font: 15px "Lato", sans-serif;
+    padding-top: 7vh;
+
+}
+
+.send_form .cell {
+    position: relative;
+    display: block;
+    margin: 2vh auto;
+    height: 8vh;
+    background: none;
+    width: 60%;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding-left: 20px;
+    color: #ffffff;
+
+}
+
+.send_form .cell_massage {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    background: none;
+    width: 60%;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 20px 10px 150px 10px;
+    color: #ffffff;
+}
+input {
+    outline:none;
+}
+
+.cell_massage:focus {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font: 13px "Lato", sans-serif;
+}
+
+.cell:focus {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font: 13px "Lato", sans-serif;
+}
+
+.send_form label {
+    font: 15px "Lato", sans-serif;
+    color: #ffffff;
+    float: left;
+    padding-top: 2%;
+}
+
+.send_form__nav_send {
+    width: 63.5%;
+    margin: 3% auto;
+
+}
+
+#check  {
+    float: left;
+    padding-top: 2%;
+}
+
+.send__button {
+    float: right;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    display: block;
+    margin:  0 auto;
+    background: #15a4fa;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px ;
+    font: 18px "Lato", sans-serif;
+}
+

@@ -196,8 +196,9 @@ div {
 
 .stayWith {
     background: url("../img/Banner2.png") no-repeat top 280% center / cover ;
-    height: 100vh;
+    height: 91vh;
     text-align: center;
+    color: #ffffff;
 }
 
 .stayWith .section_header {
@@ -210,16 +211,16 @@ div {
 }
 
 .send_form {
-    color: #999999;
+
     font: 15px "Lato", sans-serif;
-    padding-top: 7vh;
+    padding-top: 2vh;
 
 }
 
 .send_form .cell {
     position: relative;
     display: block;
-    margin: 2vh auto;
+    margin: 2.5vh auto;
     height: 8vh;
     background: none;
     width: 60%;
@@ -233,12 +234,12 @@ div {
 .send_form .cell_massage {
     position: relative;
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     background: none;
     width: 60%;
     border: 1px solid #999999;
     border-radius: 5px;
-    padding: 20px 10px 150px 10px;
+    padding: 20px 10px 110px 10px;
     color: #ffffff;
 }
 input {
@@ -251,6 +252,7 @@ input {
     font: 13px "Lato", sans-serif;
 }
 
+
 .cell:focus {
     border: 1px solid #ffffff;
     color: #ffffff;
@@ -261,18 +263,18 @@ input {
     font: 15px "Lato", sans-serif;
     color: #ffffff;
     float: left;
-    padding-top: 2%;
+    padding: 2% 0;
 }
+
 
 .send_form__nav_send {
     width: 63.5%;
-    margin: 3% auto;
+    margin: 1.5% auto;
 
 }
 
-#check  {
+#check {
     float: left;
-    padding-top: 2%;
 }
 
 .send__button {
@@ -287,5 +289,25 @@ input {
     border: 0;
     border-radius: 5px ;
     font: 18px "Lato", sans-serif;
+    padding: 0;
 }
 
+input[type="checkbox"] {
+    margin-top: 2.7%;
+}
+
+.footer {
+    height: 9vh;
+}
+.footer_text {
+    font: 15px "Lato", sans-serif;
+    color: #999999;
+}
+
+.footer_text {
+    float: left;
+}
+
+.footer_social_networks {
+    float: right;
+}

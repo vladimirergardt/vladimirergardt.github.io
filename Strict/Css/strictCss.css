@@ -110,6 +110,16 @@ div {
 
 }
 
+.simpleDisigne__section_content_block__block {
+    height: 60vh;
+
+    margin: 0 auto;
+}
+
+.simpleDisigne__section_content_block {
+    margin: 0 auto;
+    text-align: center;
+}
 
 
 .section_header {
@@ -127,7 +137,6 @@ div {
 }
 
 .simpleDisigne__section_content_block__block {
-
     height: 250px;
     width: 300px;
     display: inline-block;
@@ -310,4 +319,5 @@ input[type="checkbox"] {
 
 .footer_social_networks {
     float: right;
+    margin-top: 1.2%;
 }

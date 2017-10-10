@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="Css/responciveCss.css">
     <title>Strict</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#scroll").on("click","a", function (event) {
+                event.preventDefault();
+                var id  = $(this).attr('href'),
+                        top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 1500);
+            });
+        });
+    </script>
+
+
+
 </head>
 <body>
  <div class="section_1">
@@ -31,11 +45,13 @@
         <p class="main_header__text">STRICT is a responsive theme with
             a a clean and minimal look.</p>
         <button type="submit" class="main_header__button">Call to action</button>
-        <input type="image" class="main_header__button__arrow" src="img/row.png">
-    </div>
+        <div id="scroll">
+        <a href="#yak"><input type="image" class="main_header__button__arrow" src="img/row.png"></a>
+        </div>
+        </div>
  </div>
  </div>
-
+<div id="yak">
 <div class="simpleDisigne">
         <div class="simpleDisigne__section_header__section_text">
             <div class="wrapper">
@@ -57,7 +73,7 @@
                     <img src="img/OptimizeIco.png">
                 </div>
                    <h3 class="simpleDisigne__section_content_block__block__header">
-                       Optimized for all devices
+                       Optimized<br> for<br>all devices
                    </h3>
                 <p class="simpleDisigne__section_content_block__block__text">STRICT
                     has been designed to be fully
@@ -69,7 +85,7 @@
                     <img src="img/ClearIco.png">
                 </div>
                 <h3 class="simpleDisigne__section_content_block__block__header">
-                    Clean & Minimal Design
+                    Clean &<br> Minimal<br>Design
                 </h3>
                 <p class="simpleDisigne__section_content_block__block__text">This
                     multipurpose theme is especially created
@@ -81,7 +97,7 @@
                     <img src="img/FontIco.png">
                 </div>
                 <h3 class="simpleDisigne__section_content_block__block__header">
-                    Font Awesome Icon
+                    Font<br> Awesome<br>Icon
                 </h3>
                 <p class="simpleDisigne__section_content_block__block__text">This
                     multipurpose theme is especially created
@@ -91,7 +107,7 @@
             </div>
 
 </div>
-
+</div>
 <div class="showcase">
     <div class="wrapper">
         <h2 class="section_header">Showcase your work like a pro.</h2>
@@ -148,6 +164,7 @@
 
     </div>
 </footer>
+
 
 </body>
 </html>

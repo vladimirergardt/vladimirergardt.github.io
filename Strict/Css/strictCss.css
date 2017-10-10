@@ -157,11 +157,11 @@ div {
 
 .simpleDisigne__section_content_block__block:nth-child(2){
     margin-left: 2vh;
+
 }
 
 .simpleDisigne__section_content_block__block:nth-child(3){
     margin-left: 2vh;
-
 }
 
 .simpleDisigne__section_content_block__block__header {
@@ -320,4 +320,5 @@ input[type="checkbox"] {
 .footer_social_networks {
     float: right;
     margin-top: 1.2%;
+    clear: inherit;
 }

@@ -25,13 +25,20 @@
     .footer_social_networks {
         margin-top: 1.1%;
     }
+
+    .simpleDisigne__section_content_block__block {
+        margin-top: 3vh;
+    }
 }
 
 @media screen and (max-width: 1024px){
     .showcase__image_block img{
         height: 24vh;
-        width: 35vh;
+        width: 30vh;
+    }
 
+    .simpleDisigne__section_content_block__block {
+        margin-top: 3vh;
     }
 }
 
@@ -89,7 +96,7 @@
     }
 
     .simpleDisigne__section_content_block__block__header {
-        font: 17px "Lato", sans-serif;
+        font: 15px "Lato", sans-serif;
     }
 
     .showcase__image_block img{
@@ -106,7 +113,19 @@
     }
 
     .main_header__button__arrow {
-       margin-top: 20vh;
+       margin-top: 10vh;
+    }
+
+    .section_header {
+        font: 27px "Lato", sans-serif;
+        margin: 0 auto;
+        padding-top: 2vh;
+    }
+
+    .showcase .section_header {
+       text-align: left;
+        font: 27px "Lato", sans-serif;
+        padding-left: 10vh;
     }
 
 }

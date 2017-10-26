@@ -1,0 +1,216 @@
+@media screen and (max-width: 1340px ) {
+
+}
+
+
+@media screen and (max-width: 1024px ) {
+
+}
+
+
+@media screen and (max-width: 700px ) {
+
+}
+
+
+@media screen and (max-width: 400px ) {
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .section_main__logo {
+        font: 18px "Reef", sans-serif;
+        margin: -2vh 0 0 2vh;
+
+    }
+
+
+    .section_main__list_menu {
+        margin-top: -1vh;
+        margin-right: 0;
+    }
+
+    .list_menu li {
+        margin-left: -10vh;
+        display: block;
+        text-align: right;
+    }
+
+    .list_menu li:hover {
+        border-bottom: 1px solid #ffffff;
+        padding-bottom: 0;
+    }
+
+    .list_menu a {
+        font: 11px "Raleway", sans-serif;
+    }
+
+    h1 {
+        font: 26px "Kartika", sans-serif;
+        margin-top: 22vh;
+    }
+
+    .main_button {
+        margin-top: 24vh;
+        height: 6vh;
+        width: 30vh;
+        font: 12px "Roboto", sans-serif;
+    }
+
+    .section_download__header {
+        font: 15px "Raleway", sans-serif;
+    }
+
+    #download_button {
+        padding: 0.5vh 2.5vh 0.5vh 2.5vh;
+        font: 13px "Roboto", sans-serif;
+    }
+
+
+    .section_whatWeDo_layer_two {
+        background: url("../Image/WHAT We Do.png") no-repeat top 80% left 0;
+        background-size: 80%;
+    }
+
+    .section_whatWeDo_button {
+        margin-top: 7%;
+        padding: 1.5vh 4vh;
+    }
+
+    .section_first__text {
+        width: 90%;
+    }
+
+    .section_second__text {
+        width: 90%;
+    }
+
+    .section_iconBar__block {
+        height: 35vh;
+        width: 45%;
+        text-align: center;
+        padding: 3vh 1vh 2vh 1vh;
+        margin: 3vh 1vh 3vh 1vh;
+    }
+
+    .section_iconBar__block__text {
+        margin-top: 2vh;
+        font: 9px "Raleway", sans-serif;
+    }
+
+    .section_iconBar__block__icon1 {
+        background-size: 45%;
+        padding:0 0 10vh 0;
+
+    }
+
+    .section_iconBar__block__icon2 {
+        background-size: 50%;
+        padding:0 0 10vh 0;
+
+    }
+
+    .section_iconBar__block__icon3 {
+        background-size: 65%;
+        padding:0 0 10vh 0;
+
+    }
+
+    .section_iconBar__block__icon4 {
+        background-size: 45%;
+        padding:0 0 10vh 0;
+    }
+
+
+
+
+
+    .section_joinUs__section_screen {
+        background: url("../Image/mockup iphone.png") no-repeat center 7vh;
+        padding-top: 55vh;
+    }
+
+    .section_joinUs_block {
+        height: 10vh;
+        width: 100%;
+        margin:  0 9vh auto 0;
+        display: block;
+    }
+
+    .section_joinUs__section_header {
+        font: 22px "Raleway", sans-serif;
+        margin: 0 0 0 0;
+    }
+
+    .section_joinUs_block_header {
+        margin-top: 2vh;
+        font: 16px "Raleway", sans-serif;
+    }
+
+    .section_joinUs_block_text {
+        font: 15px "Raleway", sans-serif;
+    }
+
+    #section_whatPeopleSay_slider__button_left_right {
+        width: 100%;
+        margin: -27vh auto 0 auto;
+    }
+
+    .section_whatPeopleSay .wrapper {
+        background: url("../Image/background4.png") no-repeat top 7vh left 1vh;
+    }
+
+    .section_whatPeopleSay .section_header {
+        padding-top: 12vh;
+    }
+
+
+    #section_footer_logo {
+        width: 10%;
+    }
+
+    #section_footer_menu {
+        margin-top: -1.5vh;
+        padding: 0;
+    }
+
+    .footer_list_menu>li {
+        display: block;
+        margin-top: -1vh;
+        margin-left: 2vh;
+        padding: 0;
+    }
+
+    #section_footer_text {
+        font: 9px "Roboto", sans-serif;
+        margin-top: 5vh;
+        margin-left: 8vh;
+    }
+
+    .footer_list_menu>li>a {
+        font: 8px "Raleway", sans-serif;
+    }
+
+    #section_footer_contacts {
+        width: 20%;
+    }
+
+
+    #section_footer_contacts_web {
+        font: 5px "Raleway", sans-serif;
+    }
+
+    #section_footer_contacts_phone {
+        font: 5px "Roboto", sans-serif;
+    }
+
+    #section_footer_contacts_designe {
+        font: 5px "Roboto", sans-serif;
+        margin-top: 2vh;
+    }
+
+}
+
+
+

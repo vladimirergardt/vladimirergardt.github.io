@@ -1,14 +1,324 @@
+@media screen and (max-width: 1600px ) {
+    .section_iconBar__block {
+        width: 21%;
+    }
+
+    .section_joinUs_block {
+        margin:  0 auto 0 4vh;
+    }
+
+    .section_joinUs__section_screen {
+        background-size: 40%;
+    }
+
+}
+
+
 @media screen and (max-width: 1340px ) {
+
+    .list_menu li {
+        display: inline-block;
+        margin-left: 1vh;
+        padding: 0 1vh 0 1vh;
+    }
+
+    .section_iconBar {
+        padding-top: 5vh ;
+    }
+
+    .section_iconBar__block {
+        height: 42vh;
+        width: 45%;
+        padding: 2vh 3vh 2vh 3vh;
+    }
+
+    .section_iconBar__block__icon1 {
+        background-size: 35%;
+        padding:0 0 25vh 0;
+
+    }
+
+    .section_iconBar__block__icon2 {
+        background-size: 40%;
+        padding:0 0 25vh 0;
+
+    }
+
+    .section_iconBar__block__icon3 {
+        background-size: 45%;
+        padding:0 0 25vh 0;
+
+    }
+
+    .section_iconBar__block__icon4 {
+        background-size: 35%;
+        padding:0 0 25vh 0;
+    }
+
+    .section_iconBar__block__text {
+        font: 22px "Raleway", sans-serif;
+    }
+
+    .section_joinUs__section_screen {
+        background: url("../Image/mockupPc.png") no-repeat center 7vh;
+        background-size: 75%;
+    }
+
+    .section_joinUs_block {
+        margin:  0 auto 0 2vh;
+    }
+
+    #section_whatPeopleSay_slider__button_left_right {
+        margin: -35vh auto 0 auto;
+        width: 80%;
+    }
+
+
+
+
+
+
+
+
+
 
 }
 
 
 @media screen and (max-width: 1024px ) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .list_menu li {
+        display: inline-block;
+        margin-left: 1vh;
+        padding: 0 1vh 0 1vh;
+    }
+
+    .section_iconBar {
+        padding-top: 0;
+    }
+
+    .section_iconBar__block {
+        height: 44vh;
+        width: 45%;
+        text-align: center;
+        padding: 5vh 2vh 1vh 2vh;
+        margin: 3vh 1vh 3vh 1vh;
+    }
+
+    .section_iconBar__block__text {
+        margin-top: 1vh;
+        font: 14px "Raleway", sans-serif;
+    }
+
+    .section_iconBar__block__icon1 {
+        background-size: 35%;
+        padding:0 0 20vh 0;
+
+    }
+
+    .section_iconBar__block__icon2 {
+        background-size: 50%;
+        padding:0 0 20vh 0;
+
+    }
+
+    .section_iconBar__block__icon3 {
+        background-size: 40%;
+        padding:0 0 20vh 0;
+
+    }
+
+    .section_iconBar__block__icon4 {
+        background-size: 35%;
+        padding:0 0 20vh 0;
+    }
+
+    .section_joinUs__section_screen {
+        background: url("../Image/mockupPc.png") no-repeat center 7vh;
+        background-size: 75%;
+    }
+
+    .section_joinUs_block {
+        margin:  0 auto 0 2vh;
+    }
+
+    #section_whatPeopleSay_slider__button_left_right {
+        margin: -35vh auto 0 auto;
+        width: 80%;
+    }
+
 
 }
 
 
 @media screen and (max-width: 700px ) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .section_main__list_menu {
+        margin-top: 1vh;
+        margin-right: 0;
+    }
+
+    .list_menu li {
+        margin-left: -10vh;
+        display: block;
+        text-align: right;
+    }
+
+    .list_menu li:hover {
+        border-bottom: 1px solid #ffffff;
+        padding-bottom: 0;
+    }
+
+    .list_menu a {
+        font: 20px "Raleway", sans-serif;
+    }
+
+    h1 {
+        font: 50px "Kartika", sans-serif;
+        margin-top: 22vh;
+    }
+
+    .section_iconBar {
+        padding-top: 0;
+    }
+
+    .section_iconBar__block {
+        height: 44vh;
+        width: 45%;
+        text-align: center;
+        padding: 5vh 2vh 1vh 2vh;
+        margin: 3vh 1vh 3vh 1vh;
+    }
+
+    .section_iconBar__block__text {
+        margin-top: 1vh;
+        font: 14px "Raleway", sans-serif;
+    }
+
+    .section_iconBar__block__icon1 {
+        background-size: 35%;
+        padding:0 0 13vh 0;
+
+    }
+
+    .section_iconBar__block__icon2 {
+        background-size: 50%;
+        padding:0 0 13vh 0;
+
+    }
+
+    .section_iconBar__block__icon3 {
+        background-size: 40%;
+        padding:0 0 12vh 0;
+
+    }
+
+    .section_iconBar__block__icon4 {
+        background-size: 35%;
+        padding:0 0 13vh 0;
+    }
+
+    .section_joinUs__section_screen {
+        background: url("../Image/mockupPc.png") no-repeat center 7vh;
+        background-size: 75%;
+        padding-top: 55vh;
+    }
+
+    .section_joinUs_block {
+        height: 10vh;
+        width: 100%;
+        margin:  0 9vh auto 0;
+        display: block;
+    }
+
+    .section_joinUs__section_header {
+        font: 25px "Raleway", sans-serif;
+        margin: 0;
+    }
+
+    .section_joinUs_block_header {
+        margin-top: 2vh;
+        font: 20px "Raleway", sans-serif;
+    }
+
+    .section_joinUs_block_text {
+        font: 19px "Raleway", sans-serif;
+        margin-top: 1vh;
+    }
+
+    .section_first__text {
+        width: 90%;
+    }
+
+    .section_second__text {
+        width: 90%;
+    }
+
+
+    #section_footer_logo {
+        width: 10%;
+    }
+
+    #section_footer_menu {
+        margin-top: -1.5vh;
+        padding: 0;
+    }
+
+    .footer_list_menu>li {
+        display: block;
+        margin-top: -1vh;
+        margin-left: 2vh;
+        padding: 0;
+    }
+
+    #section_footer_text {
+        font: 9px "Roboto", sans-serif;
+        margin-top: 5vh;
+        margin-left: 8vh;
+    }
+
+    .footer_list_menu>li>a {
+        font: 8px "Raleway", sans-serif;
+    }
+
+    #section_footer_contacts {
+        width: 20%;
+    }
+
+
+    #section_footer_contacts_web {
+        font: 5px "Raleway", sans-serif;
+    }
+
+    #section_footer_contacts_phone {
+        font: 5px "Roboto", sans-serif;
+    }
+
+    #section_footer_contacts_designe {
+        font: 5px "Roboto", sans-serif;
+        margin-top: 2vh;
+    }
+
+    .section_footer {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: auto;
+    }
+
+    #section_whatPeopleSay_slider__button_left_right {
+        width: 100%;
+        margin: -40vh auto 0 auto;
+    }
+
+    #section_footer_logo .section_main__logo {
+        font: 20px "Reef", sans-serif;
+    }
 
 }
 
@@ -152,9 +462,14 @@
         font: 15px "Raleway", sans-serif;
     }
 
+    #section_whatPeopleSay_slider {
+        margin: 4vh auto 0 auto;
+        height: 60vh;
+    }
+
     #section_whatPeopleSay_slider__button_left_right {
         width: 100%;
-        margin: -27vh auto 0 auto;
+        margin: -40vh auto 0 auto;
     }
 
     .section_whatPeopleSay .wrapper {
@@ -209,6 +524,13 @@
         font: 5px "Roboto", sans-serif;
         margin-top: 2vh;
     }
+
+    .section_footer {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: auto;
+    }
+
 
 }
 

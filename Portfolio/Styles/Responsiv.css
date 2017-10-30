@@ -1,0 +1,150 @@
+@media screen and (max-width: 1200px ) {
+
+    #header_menu {
+        float: left;
+        margin-top: 110px;
+        margin-left: -200px ;
+    }
+
+    #header_menu li{
+        display: block;
+        margin-top: 10px;
+    }
+
+    #header_menu a {
+        font: 27px "Montserrat", sans-serif;
+    }
+
+    #section_header__header {
+        padding-top: 75vh;
+        font: 55px "Montserrat", sans-serif;
+    }
+
+
+
+    .section_news__news_block {
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+        padding-top: 10px;
+    }
+
+    .section_news__news_block:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .section_news__news_block:last-child {
+        margin-left: 0;
+    }
+
+    .section_portfolio__portfolio_block {
+        width:100%;
+        display: block;
+    }
+
+    .section_portfolio__portfolio_block:last-child {
+        padding-left: 0;
+        padding-top: 100px;
+    }
+
+    .members_team {
+        height: 120px;
+        width: 100%;
+        display: block;
+        margin-top: 60px;
+    }
+
+    .members_team:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .members_team:last-child {
+        margin-left: 0;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px ) {
+    #section_header__header {
+        padding-top: 80vh;
+        font: 35px "Montserrat", sans-serif;
+
+    }
+
+    .section_portfolio__portfolio_block .section_news__news_block__header {
+        font-size: 36px;
+    }
+
+
+
+    #section_footer__content_designed {
+        float: left;
+    }
+
+}
+
+
+@media screen and (max-width: 500px ) {
+
+    .section_portfolio_image {
+        background: url("../Images/MacBook.png") no-repeat ;
+       background-size: 250px;
+        padding-top: 200px;
+    }
+
+    .section_portfolio__portfolio_block .section_news__news_block__header {
+        margin-top: -130px;
+    }
+
+    #section_our_team .section_news__news_block__header {
+        margin-top: 1%;
+    }
+
+    .section_portfolio__portfolio_block {
+        height: 260px;
+    }
+
+    .members_team {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    #members_team_ico1 {
+        display: block;
+        background: url("../Images/Jouy.png") no-repeat;
+        margin: 0 auto;
+        float: none;
+    }
+
+    #members_team_ico2 {
+        display: block;
+        background: url("../Images/Matt.png") no-repeat;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #members_team_ico3 {
+        display: block;
+        background: url("../Images/Mike.png") no-repeat;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .members_team_text_block {
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    #section_main {
+        background: url("../Images/Background.png") no-repeat  left / cover;
+
+    }
+
+}
+
+

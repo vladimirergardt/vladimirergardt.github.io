@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Styles/Portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Domine:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#header_menu").on("click","a", function (event) {
+                event.preventDefault();
+                var id  = $(this).attr('href'),
+                        top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 500);
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="Styles/Responsiv.css">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <title>Portfolio</title>
+
+</head>
+<body>
+<div id="section_main">
+    <div class="wrapper">
+        <div id="section_header">
+            <div id="section_header__logo"><div class="logo_text">Freelancer<span class="pointer_logo">.</span></div></div>
+            <div id="section_header__menu">
+            <ul id="header_menu">
+                <li><a href="#section_news">About</a></li>
+                <li><a href="#section_portfolio">Work</a></li>
+                <li><a href="#section_portfolio">Portfolio</a></li>
+                <li><a href="#section_our_team">Contact</a></li>
+                <li id="li_twitter"></li>
+                <li id="li_facebook"></li>
+            </ul>
+        </div>
+        </div>
+        <div id="section_header__header">intelligence<br>
+            is nothing without<br>
+            ambition<span class="pointer">.</span></div>
+        <div id="section_header__text">We’re small but impressive creative agency.</div>
+        <a href="#section_news"><button id="button_section_main">Read more</button></a>
+    </div>
+</div>
+
+
+<div id="section_news">
+    <div class="wrapper">
+    <div class="section_news__news_block">
+        <div class="section_news__news_block__header">Peace<br>
+            of Mind<span class="pointer">.</span></div>
+        <div class="section_news__news_block__text">
+            You’re safe with us.
+            The privacy and security of your financial
+            information is our top priority.
+        </div>
+        <div class="section_news__news_block__link">More &#8594;</div>
+    </div>
+
+    <div class="section_news__news_block">
+        <div class="section_news__news_block__header">Free<span class="pointer">.</span><br>
+            Actually free</div>
+        <div class="section_news__news_block__text">
+            No more pricing grids. No more fine print.
+            Sending and receiving cash is free without gimmicks.
+        </div>
+        <div class="section_news__news_block__link">More &#8594;</div>
+    </div>
+    <div class="section_news__news_block">
+        <div class="section_news__news_block__header">Simple<br>
+            payments<span class="pointer">.</span></div>
+        <div class="section_news__news_block__text">
+            The same debit card you use to buy coffee
+            lets deposit money straight to your bank account.
+        </div>
+        <div class="section_news__news_block__link">More &#8594;</div>
+    </div>
+    </div>
+</div>
+
+<div id="section_portfolio">
+
+    <div class="wrapper">
+        <div class="section_portfolio__portfolio_block">
+    <div class="section_portfolio_image"></div>
+            </div>
+
+    <div class="section_portfolio__portfolio_block">
+        <div class="section_news__news_block__header">Portfolio<span class="pointer">.</span></div>
+        <div class="section_news__news_block__second_header">We are small, but strong team</div>
+        <div class="section_news__news_block__text">
+            No more pricing grids. No more fine print.Sending and receiving cash is free without gimmicks.
+            <br><br>
+            The same debit card you use to buy coffee lets deposit money straight to your bank account.
+        </div>
+        <div class="section_news__news_block__link">More &#8594;</div>
+    </div>
+    </div>
+    </div>
+<div id="section_our_team">
+    <div class="wrapper">
+    <div class="section_news__news_block__header">Our team<span class="pointer">.</span></div>
+    <div class="section_our_team__text">They are big but still friendly.</div>
+    <div id="section_our_team__members_team">
+        <div class="members_team">
+            <div id="members_team_ico1"></div>
+            <div class="members_team_text_block">
+                <div class="members_team_text_block__header">Joey</div>
+                <div class="members_team_text_block__second_header">Web developer</div>
+                <div class="members_team_text_block__text">Coffee lover.  Always on bike. iPhone fan.</div>
+            </div>
+        </div>
+
+        <div class="members_team">
+            <div id="members_team_ico2"></div>
+            <div class="members_team_text_block">
+                <div class="members_team_text_block__header">Matt</div>
+                <div class="members_team_text_block__second_header">Web developer</div>
+                <div class="members_team_text_block__text">MTB Biker. Photoshop Master. Loving Father.</div>
+            </div>
+        </div>
+
+        <div class="members_team">
+            <div id="members_team_ico3"></div>
+            <div class="members_team_text_block">
+                <div class="members_team_text_block__header">Mike</div>
+                <div class="members_team_text_block__second_header">Web developer</div>
+                <div class="members_team_text_block__text">Drummer. Soup lover. Beer Drinker. Cyclist.</div>
+            </div>
+        </div>
+    </div>
+
+        <div class="section_news__news_block__link">More &#8594;</div>
+    </div>
+</div>
+
+
+<div id="section_footer">
+    <div class="wrapper">
+
+        <div id="section_footer__content">
+            <div id="section_footer__content__social_networks">
+                <div class="section_footer__content__social_networks__ico"><img src="Images/Twitter.png"></div>
+                <div class="section_footer__content__social_networks__ico"><img src="Images/Instagram.png"></div>
+                <div class="section_footer__content__social_networks__ico"><img src="Images/facebook.png"></div>
+                <div class="section_footer__content__social_networks__ico"><img src="Images/google+.png"></div>
+            </div>
+            <div id="section_footer__content_designed">© Freelancer - Designed by Wojtek Kwiatkowski</div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

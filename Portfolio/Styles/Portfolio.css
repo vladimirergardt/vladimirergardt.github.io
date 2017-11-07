@@ -49,7 +49,6 @@ body {
     display: inline-block;
     margin-left: 25px;
     cursor: pointer;
-
 }
 
 #header_menu a {
@@ -60,6 +59,10 @@ body {
     color: #263742;
 }
 
+#header_menu a:hover {
+    color: #fa5c65;
+    transition: 1s;
+}
 
 #li_twitter {
     background: url("../Images/TwitterMain.png") no-repeat;
@@ -111,11 +114,12 @@ body {
     padding-top: 50px;
     margin-bottom: 3%;
 }
+
 .section_news__news_block:nth-child(2) {
     margin-left: 9%;
 }
 
-.section_news__news_block:last-child {
+.section_news__news_block:nth-child(3) {
     margin-left: 9%;
 }
 
@@ -156,6 +160,8 @@ body {
     display: inline-block;
 }
 
+
+
 .section_portfolio__portfolio_block:last-child {
     padding-left: 60px;
 }
@@ -192,11 +198,11 @@ body {
  }
 
 .members_team:nth-child(2) {
-    margin-left: 4.5%;
+    margin-left: 4.1%;
 }
 
 .members_team:last-child {
-    margin-left: 4.5%;
+    margin-left: 4.1%;
 }
 
 #members_team_ico1 {
@@ -223,13 +229,54 @@ body {
     float: left;
 }
 
+#members_team_ico11 {
+    background: url("../Images/Jouy.png") no-repeat;
+    padding-bottom: 120px;
+    width: 120px;
+    margin: 40px auto 0 auto;
+}
+
+#members_team_ico12 {
+    margin: 0 auto;
+    background: url("../Images/Matt.png") no-repeat;
+    padding-bottom: 120px;
+    width: 120px;
+}
+
+#members_team_ico13 {
+    margin: 0 auto;
+    background: url("../Images/Mike.png") no-repeat;
+    padding-bottom: 120px;
+    width: 120px;
+}
+
+#members_team_ico14 {
+    margin: 0 auto;
+    background: url("../Images/Tim.png") no-repeat;
+    padding-bottom: 120px;
+    width: 120px;
+}
+
+#members_team_ico15 {
+    margin: 0 auto;
+    background: url("../Images/Ashley.png") no-repeat;
+    padding-bottom: 120px;
+    width: 120px;
+}
+
+#members_team_ico16 {
+    margin: 0 auto;
+    background: url("../Images/Rhis.png") no-repeat;
+    padding-bottom: 120px;
+    width: 120px;
+}
 .members_team_text_block {
     margin-top: 15px;
     display: inline-block;
     width: 50%;
     padding: 0;
     height: 100px;
-    margin-left: 30px;
+    margin-left: 5px;
 }
 
 .members_team_text_block__header {
@@ -284,4 +331,246 @@ body {
 #section_footer__content_designed {
     float: right;
 }
+
+#section_news__modal_window1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#section_news__modal_window2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#section_news__modal_window3 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#section_portfolio__modal_window {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#section_portfolio__modal_window .section_news__modal_content {
+    padding: 0;
+}
+
+#section_our_team__modal_window {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#section_our_team__modal_window .section_news__news_block__header {
+    padding-top: 0;
+    margin: 0;
+}
+
+#section_our_team__modal_window .section_news__modal_content {
+    height: auto;
+}
+
+#section_our_team__modal_window .members_team {
+    display: block;
+    margin: 0 auto 20% auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+#section_our_team__modal_window .members_team_text_block {
+    text-align: center;
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#section_our_team__modal_window .section_news__modal_content {
+    padding-right: -30px;
+    padding-left: 20px;
+}
+
+.section_news__modal_content {
+    background-color: #ffffff;
+    width: 50%;
+    height: 80%;
+    margin: 10vh auto 0 auto;
+    border: 1px solid #263742;
+    padding: 20px 0 0 30px;
+}
+
+.close__modal_window {
+    margin: 5px 30px 0 0;
+    float: right;
+    font-size: 25px;
+    color: #263742;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text {
+    width: 90%;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+#section_portfolio__modal_window .section_news__news_block__header {
+    margin-left: 30px;
+}
+
+#section_portfolio__modal_window .section_news__news_block__text {
+    margin-top: 0;
+}
+
+#section_portfolio__modal_window .section_news__modal_content {
+    width: 70%;
+    height: 100%;
+}
+
+
+
+.slideShow_conteiner {
+    padding-top: -30px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -64px;
+    padding: 26px;
+    color: white;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.number_text {
+    padding: 8px 12px;
+    position: relative;
+    top: 40px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -54px;
+    padding: 26px;
+    color: white;
+    font-weight: bold;
+    font-size: 44px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.mySlides{
+    text-align: center;
+}
+
+.mySlides:nth-child(2) {
+    display: none;
+}
+
+.mySlides:nth-child(3) {
+    display: none;
+}
+
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text{
+    color: #000;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: relative;
+    bottom: 20px;
+}
+
+.dot {
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from{opacity:.4}
+    to{opacity: 1}
+}
+@keyframes fade {
+    from{opacity:.4}
+    to{opacity: 1}
+}
+
+
 

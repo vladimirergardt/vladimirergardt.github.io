@@ -1,0 +1,341 @@
+@media screen and (max-width: 1400px ) {
+
+    #section_main__info_line_phone_number {
+        width: 14%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1370px ) {
+
+    #section_main__info_line_email {
+        width: 70%;
+    }
+
+    #section_main__header {
+        left: 80vh;
+    }
+
+    #section_footer_1__block_phone {
+        display: none;
+    }
+
+    .section_two__block {
+        height: 90vh;
+    }
+
+    .section_two__block__header {
+        font-size: 16px;
+    }
+
+    .section_two__block__text {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1250px ) {
+
+    #section_main__header {
+        left: 40vh;
+        width: 20vh;
+    }
+
+    #section_main__header__first {
+        font: 30px "Raleway", sans-serif;
+        font-weight: 300;
+    }
+
+    #section_main__header__second {
+        font: 15px "Raleway", sans-serif;
+    }
+
+    .cell {
+        width: 80%;
+        height: 5vh;
+    }
+
+}
+
+@media screen and (max-width: 1200px ) {
+    .section_three__block_text_2 {
+        font-size: 9px;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px ) {
+    #section_main__info_line_email {
+        width: 50%;
+    }
+
+    #section_main__header__first {
+        font: 20px "Raleway", sans-serif;
+    }
+
+    #section_main__header {
+        left: 60vh;
+        width: 50vh;
+    }
+
+    #section_main__info_line_phone_number {
+        width: 30%;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 900px ) {
+
+    #section_main_Enrol_online_line_content {
+        font: 12px "Lato", sans-serif;
+    }
+
+    #section_main_Enrol_online_line_content a {
+        font: 11px "Lato", sans-serif;
+    }
+
+    #header_form {
+        font-size: 140%;
+    }
+
+    .section_two__block {
+        display: block;
+        width: 100%;
+        clear: both;
+        height: 60vh;
+    }
+
+    .section_two__block:nth-child(2) {
+        margin-left: 0;
+        width: 100%;
+        float: none;
+    }
+
+    .section__video_block {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .section_two__block__text {
+        font-size: 16px;
+    }
+
+    #main_menu li a {
+        font-size: 12px;
+    }
+
+    .section_three__block {
+        width: 100%;
+        height:20vh;
+        display: block;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .section_three__block__block1 {
+        margin-top: 65vh;
+    }
+
+    .section_three__block_text_1 {
+        font: 26px "Lato", sans-serif;
+    }
+
+    .section_three__block_text_2 {
+        font: 19px "Lato", sans-serif;
+    }
+
+    #section_main_Enrol_online_form {
+        width: 95%;
+        display: block;
+        float: none;
+        margin-top: -65vh;
+    }
+
+    #section_main_Enrol_online_line_content {
+        display: inline-block;
+        width: 100%;
+        float: none;
+        padding-top: 3px;
+        font: 20px "Lato", sans-serif;
+        text-align: center;
+    }
+
+    #section_main_Enrol_online_line {
+        height: 5vh;
+        vertical-align: 5vh;
+    }
+
+    #arrow_line {
+        display: none;
+    }
+
+    .p_input {
+        margin-left: 10vh;
+    }
+
+    #header_form {
+        text-align: center;
+    }
+
+    #second__header_form {
+        text-align: center;
+    }
+
+    .section_four__block_menu {
+        display: block;
+        padding-top: 10px;
+        border: 1px solid #ede9e9;
+        width: 100%;
+    }
+
+    .section_four__block_menu:nth-child(2) {
+        margin-left: 0;
+        border-right: 1px solid #ede9e9;
+    }
+
+    .section_four__block_menu:nth-child(3) {
+        margin-left: 0;
+        border-right: 1px solid #ede9e9;
+    }
+
+    .section_four__content__block {
+        display: block;
+        border-right: none;
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .section_four__content__block:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .section_four__content__block:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .section_four__content__block_video {
+        width: 70%;
+        margin: 0 auto 20px auto;
+    }
+
+    .section_four__content__block_video:first-child {
+        margin-bottom: 30px;
+        margin-top: -30px;
+    }
+
+    #main_menu li {
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 900px ) {
+
+    #section_main__header {
+        left: 30vh;
+        width: 40vh;
+    }
+
+    #section_footer_1 {
+        height: auto;
+    }
+
+    .section_footer_1__block {
+        display: block;
+        border-right: none;
+        width: 100%;
+        float: none;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .section_footer_1__block:first-child {
+        width: 100%;
+    }
+
+    .section_footer_1__block__header {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    #section_main_Enrol_online_line_content a {
+        font: 14px "Lato", sans-serif;
+    }
+}
+
+@media screen and (max-width: 750px ) {
+
+    #section_main__info_line_phone_number {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #section_main__header {
+        width: 70%;
+        left: 10vh;
+        top: 40vh;
+    }
+
+}
+
+@media screen and (max-width: 550px ) {
+
+    #section_main__info_line_phone_number {
+        display: none;
+    }
+
+    .section_two__block {
+        height: auto;
+    }
+    .read_more_button {
+        margin-bottom: 20px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 450px ) {
+
+    #section_main__header {
+        top: 45vh;
+    }
+
+    #section_main_Enrol_online_form {
+        width: 85%;
+        margin-top: -70vh;
+    }
+
+    .p_input {
+        margin-left: 5vh;
+    }
+
+    .cell {
+        height: 4vh;
+    }
+
+    #header_form {
+        font-size: 15px;
+    }
+
+    .call_me_back__button {
+        height: 5vh;
+    }
+
+    #section_main_Enrol_online_line_content {
+        font-size: 10px;
+    }
+
+    .section_three__block__block1 {
+        margin-top: 80vh;
+    }
+}
